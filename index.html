@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up Form</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+        form {
+            width: 300px;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        input {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            background-color: #af4c5c;
+            color: white;
+            border: none;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!--<h1>Sign Up</h1>-->
+    <h1 style="color: blue;">Sign Up</h1>
+    <form id="registerForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <script src="registration.js"></script>
+</body>
+</html>
